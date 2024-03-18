@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Brief description of webpage." />
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="images/crawl.PNG" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="footer.css">
+    </head>
+
+<body>
+
+
+    <header>
+
+    <h1>Jackson Portfolio</h1>
+    
+    <label for="hamburger_checkbox">
+    <img src="images/hamburger_icon.svg" alt="Navigation Menu" id="hamburger_image">
+    </label>
+    <input type="checkbox" id="hamburger_checkbox">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="photos.html">Photos</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active_nav">Contact</a>
+    </nav>
+
+</header>
+
+<form id="contact_form" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" autocomplete="given-name">
+    <label for="lname">Last name</label><br /> 
+    <input type="text" id="lname" name="lname" autocomplete="family-name" /><br />
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" autocomplete="email" /><br />
+    <label for="mobile">Mobile:</label><br />
+    <input type="text" id="mobile" name="mobile" autocomplete="email" /><br />
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message"></textarea><br /><br />
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
+
+
+
+<footer>
+    <p>
+        <span property="dct:title">Portfolio &copy; </span> by
+        <span property="cc:attributionName">Jackson Fagan</span> is licensed under
+        <br>
+        <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" 
+        rel="license noopener noreferrer">CC BY 4.0
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+    </a>
+</p>
+</footer>
+
+    </body>
+</html>
